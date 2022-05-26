@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Zuri Table Assignment</title>
+  </head>
+
+<!--Inline CSS Starts-->
+  <style>
+    
+   *{
+       margin: 0px;
+       padding: 0px;
+   }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      text-align: center;
+      border-spacing: 5px;
+      padding: 5px;
+    }
+
+    h1, h3, header {
+      text-align: center;
+    }
+
+    header {
+        height: 60px;
+        width: 100;
+        color:rgb(236, 236, 5);
+        background-color: rgb(146, 4, 4);
+        line-height: 2;
+        margin-bottom: 2em;
+    }
+
+    h3{
+        margin-bottom: 1em;
+    }
+
+    h1{
+        margin-bottom: 0.5em;
+    }
+
+    table{
+      background-color: black;
+      color: white;
+      padding-top: 0.8em;
+    }
+
+    th{
+      background-color: white;
+      color: black;
+    }
+
+    td{
+      background-color: white;
+      color: black;
+    }
+
+    #serial-number {
+    background-color: rgb(236, 236, 5);
+  }
+
+  #students{
+    background-color: rgb(236, 236, 5);
+  }
+
+  #subjects{
+    background-color: rgb(236, 236, 5);
+  }
+
+  #total-scores{
+    background-color: rgb(236, 236, 5);
+  }
+
+  #math, #eng, #phy, #chem, #bio{
+    background-color: rgb(146, 4, 4);
+    color: rgb(236, 236, 5);
+  }
+
+  .empty-data{
+    background-color: black;
+  
+  }
+  </style>
+<!--End of Inline CSS-->
+
+
+  <body>
+    <header>
+        <!--page header-->
+        <h1 id="Table-Title">HTML Tables and List</h1>
+      </header>
+
+    <h1 id="Schl-Name">St. Benedict High School</h1>
+    <h3 id="Teacher-Name" >Teacher Name: Mr Ade | Class: SS2</h3>
+
+    <table width="100%" id="Table">
+      <!--begining of table-->
+      <thead>
+        <tr class="row1">
+          <th rowspan="2" id="serial-number">S/N</th>
+          <th rowspan="2" id="students">STUDENTS</th>
+          <th colspan="5" id="subjects">SUBJECTS</th>
+          <th rowspan="2" id="total-scores">TOTAL SCORES</th>
+        </tr>
+        <tr class="row2">
+          <th id="math">Mathematics</th>
+          <th id="eng">English</th>
+          <th id="phy">Physics</th>
+          <th id="chem">Chemistry</th>
+          <th id="bio">Biology</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="row3">
+          <td class="s/n">1.</td>
+          <td class="student">Adekunle</td>
+          <td class="math-score">72</td>
+          <td class="eng-score">43</td>
+          <td class="phy-score">78</td>
+          <td class="chem-score">73</td>
+          <td class="bio-score">37</td>
+          <td class="total">303</td>
+        </tr>
+
+        <tr class="row4">
+          <td class="s/n">2.</td>
+          <td class="student">John</td>
+          <td class="math-score">42</td>
+          <td class="eng-score">64</td>
+          <td class="phy-score">70</td>
+          <td class="chem-score">55</td>
+          <td class="bio-score">58</td>
+          <td class="total">289</td>
+        </tr>
+
+        <tr class="row5">
+          <td class="s/n">3.</td>
+          <td class="student">Peter</td>
+          <td class="math-score">62</td>
+          <td class="eng-score">40</td>
+          <td class="phy-score">73</td>
+          <td class="chem-score">75</td>
+          <td class="bio-score">99</td>
+          <td class="total">349</td>
+        </tr>
+
+        <tr class="row6">
+          <td class="s/n">4.</td>
+          <td class="student">Rukayat</td>
+          <td class="math-score">77</td>
+          <td class="eng-score">75</td>
+          <td class="phy-score">78</td>
+          <td class="chem-score">75</td>
+          <td class="bio-score">82</td>
+          <td class="total">387</td>
+        </tr>
+
+        <tr class="row7">
+          <td class="s/n">5.</td>
+          <td class="student">Paul</td>
+          <td class="math-score">72</td>
+          <td class="eng-score">40</td>
+          <td class="phy-score">72</td>
+          <td class="chem-score">70</td>
+          <td class="bio-score">97</td>
+          <td class="total">351</td>
+        </tr>
+
+        <tr class="row8">
+          <td class="s/n">6.</td>
+          <td class="student">Victor</td>
+          <td class="math-score">76</td>
+          <td class="eng-score">64</td>
+          <td class="phy-score">48</td>
+          <td class="chem-score">99</td>
+          <td class="bio-score">37</td>
+          <td class="total">324</td>
+        </tr>
+
+        <tr class="row9">
+          <td class="s/n">7.</td>
+          <td class="student">John</td>
+          <td class="math-score">62</td>
+          <td class="eng-score">54</td>
+          <td class="phy-score">78</td>
+          <td class="chem-score">75</td>
+          <td class="bio-score">64</td>
+          <td class="total">333</td>
+        </tr>
+
+        <tr class="row10">
+          <td class="s/n">8.</td>
+          <td class="student">Doe</td>
+          <td class="math-score">52</td>
+          <td class="eng-score">84</td>
+          <td class="phy-score">48</td>
+          <td class="chem-score">85</td>
+          <td class="bio-score">27</td>
+          <td class="total">296</td>
+        </tr>
+
+        <tr class="row11">
+          <td class="s/n">9.</td>
+          <td class="student">Stephen</td>
+          <td class="math-score">92</td>
+          <td class="eng-score">44</td>
+          <td class="phy-score">78</td>
+          <td class="chem-score">65</td>
+          <td class="bio-score">61</td>
+          <td class="total">340</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <!--table footer-->
+        <tr class="empty-roll">
+          <td colspan="8" class="empty-data"></td>
+        </tr>
+      </tfoot>
+    </table>
+    <!--end of table-->
+    
+  </body>
+</html>
